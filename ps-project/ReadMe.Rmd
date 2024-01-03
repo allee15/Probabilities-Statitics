@@ -1,0 +1,45 @@
+---
+title: "Proiect Probabilitati & Statistica"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cerinta
+Scopul acestui proiect este sa ilustram o serie de repartiții discrete și continue și modul în care pot fi utilizate în calcul. Astfel, pentru fiecare repartiție prezentam posibilitatea să selectam valorile parametrilor care definesc repartiția, să ilustram grafic densitatea (respectiv funcția de masă).
+
+## O lista cu repartitiile alese:
+- *Uniforma*\
+O variabila aleatoare continua X are repartitie uniforma pe un interval de la a la b (b > a) daca este egal probabil sa ia orice valoare din interval.
+- *Normala*\
+Repartitia asimptotica de tip I pentru valori minime este repartitia limitei lui Zn cand n ->infinit dintr-o repartitie initiala F(x) a carei coada stanga este nemarginita si este de tip exponential cand descreste la 0 spre stanga. Un exemplu de F(x) care apartine acestei clase este repartitia normala.
+- *Exponentiala*
+- *Cauchy*\
+Distributia Cauhy este adesea folosita in statistica ca exemplu canonic al unei distributii "patologice", deoarece atat valoarea ei asteptata, cat si varianta ei sunt nedefinite.
+- *Logistica*
+- *Poisson*\
+Distributia binomiala Poisson este distributia de probabilitate discreta a unei sume de incercari Bernoulli independente care nu sunt neaparat distribuite identic.
+- *Bernoulli*\
+Distributia Bernoulli este distributia de probabilitate discreta a unei variabile aleatoare care ia valoarea 1 cu probabilitatea p si valoarea 0 cu probabilitatea q=1-p. Mai putin formal, poate fi considerat ca un model pentru setul de rezultate posibile ale oricarui experiment unic care pune o intrebare da/nu.
+- *Geometrica*\
+Fie X numarul de probe Bernoulli pana la (si incluzand) prima aparitie a succesului. X e variabila aleatoare discreta avand ca valori toate numerele naturale.
+- *Hypergeometrica*\
+Distribuția hipergeometrică este o distribuție de probabilitate discretă care descrie probabilitatea de k succese (trageri aleatorii pentru care obiectul desenat are o caracteristică specificată) în n atrage, fără înlocuire, dintr-o populație finită de mărime N care conține exact K obiecte cu această caracteristică, în care fiecare remiză este fie un succes, fie un eșec. În schimb, distribuția binomială descrie probabilitatea de k succese in n remiză cu înlocuire.
+- *Lognormala*
+- *Chi^2*\
+Distributia chi-patrat cu k grade de libertate este distribuția unei sume a pătratelor lui k variabile aleatoare normale standard independente. Distribuția chi-pătrat este un caz special al distribuției gamma și este una dintre cele mai utilizate distribuții de probabilitate în statisticile inferențiale, în special în testarea ipotezelor și în construirea intervalelor de încredere.
+- *Gamma*
+- *Beta*\
+Distribuția binomială beta este distribuția binomială în care probabilitatea de succes la fiecare dintre n încercări nu este fixă, ci extrasă aleatoriu dintr-o distribuție beta.
+
+## Descriere
+Aplicatia are un meniu din care se pot selecta toate repartitiile. Pentru fiecare repartitie, exista o zona in care este afisat graficul, iar in dreapta lui putem da valori parametrilor, valori care se vor vedea pe grafic. De asemenea, sunt afisate formulele si valorile pentru medie si varianta. 
+
+
+## References
+
+- Probabilitati si Statistica, *Conf. dr. Cristian Niculescu*, https://github.com/DimaOanaTeodora/Uni-Work-2019-2022/blob/main/AN%202%20SEM%201/Probabilitati%20si%20statistica/Probabilitati%20si%20statistica.pdf
+- List of probability distributions, https://en.wikipedia.org/wiki/List_of_probability_distributions
+
